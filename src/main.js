@@ -1,5 +1,6 @@
 let html = document.querySelector("#html");
 let style = document.querySelector("#style");
+console.log(style);
 let string = `/*  你好，我叫康米娜，
 * 接下来我将用我所学的前端知识，绘制一个太极图
 * 首先我要准备一个div */
@@ -62,7 +63,7 @@ let step = () => {
             step();
         }
         
-    },50)
+    },5)
 }
 step();
 
